@@ -1,4 +1,7 @@
+import protectRoute from "../utils/protectRoute";
+
 export default defineEventHandler((event) => {
+  protectRoute(event);
   return {
     pets: [
       {
