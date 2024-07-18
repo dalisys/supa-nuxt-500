@@ -2,5 +2,6 @@
 
 Error 500 auth session Missing
 
-*To reproduce
+# To reproduce
+
 first add SUPABASE_URL and SUPABASE_KEY to .env file
